@@ -118,7 +118,7 @@
     ]
   },
   {
-    "id": "card",
+    "id": "blog",
     "fields": [
       {
         "component": "reference",
@@ -137,7 +137,7 @@
     ]
   },
   {
-    "id": "bog",
+    "id": "card",
     "fields": [
       {
         "component": "reference",

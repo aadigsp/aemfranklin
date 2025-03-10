@@ -13,22 +13,22 @@
       "button",
       "title",
       "hero",
+      "blogs",
       "cards",
-      "blgs",
       "columns",
       "fragment"
-    ]
-  },
-  {
-    "id": "cards",
-    "components": [
-      "card"
     ]
   },
   {
     "id": "blogs",
     "components": [
       "blog"
+    ]
+  },
+  {
+    "id": "cards",
+    "components": [
+      "card"
     ]
   },
   {
