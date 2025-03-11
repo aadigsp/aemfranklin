@@ -2,4 +2,4 @@ mountpoints:
   /:
     url: "https://author-p24152-e1275188.adobeaemcloud.com/bin/franklin.delivery/aadigsp/aemfranklin/main"
     type: "markup"
-    suffix: ".htm"
+    suffix: ".html"
