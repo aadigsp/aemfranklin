@@ -1,0 +1,225 @@
+{
+    "definitions": [
+      {
+        "title": "Sciex-Footer",
+        "id": "sciex-footer",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "name": "Sciex-Footer",
+                "filter": "sciex-footer"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Footer-Top-Banner",
+        "id": "footer-top-banner",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block/item",
+              "template": {
+                "name": "Footer-Top-Banner",
+                "model": "footer-top-banner"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Footer-Social-Media ",
+        "id": "footer-social-media",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block/item",
+              "template": {
+                "name": "Footer-Social-Media",
+                "model": "footer-social-media"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Footer-Column ",
+        "id": "footer-column",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block/item",
+              "template": {
+                "name": "Footer-Column",
+                "model": "footer-column"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Footer-Hero ",
+        "id": "footer-hero",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block/item",
+              "template": {
+                "name": "Footer-Hero",
+                "model": "footer-hero"
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Footer-Copyright",
+        "id": "footer-copyright",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block/item",
+              "template": {
+                "name": "Footer-Copyright",
+                "model": "footer-copyright"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "models": [
+      {
+        "id": "footer-top-banner",
+        "fields": [
+             {
+              "component": "text",
+              "valueType": "string",
+              "name": "title",
+              "label": "Title",
+              "value": ""
+            },
+            {
+              "component": "richtext",
+              "name": "description",
+              "value": "",
+              "label": "Description",
+              "valueType": "string"
+            },
+            {
+              "component": "text",
+              "name": "linkurl",
+              "value": "",
+              "label": "Link Url",
+              "valueType": "string"
+            }
+        ]
+      },
+      {
+        "id": "footer-social-media",
+        "fields": [
+            {
+                "component": "reference",
+                "valueType": "string",
+                "name": "icon",
+                "label": "Icon",
+                "multi": true
+            },
+            {
+                "component": "text",
+                "valueType": "string",
+                "name": "text",
+                "label": "Text",
+                "value": ""
+            }
+        ]
+      },
+      {
+        "id": "footer-column",
+        "fields": [
+            {
+                "component": "text",
+                "valueType": "string",
+                "name": "title",
+                "label": "Title",
+                "value": ""
+            },
+            {
+                "component": "text",
+                "name": "linkurl",
+                "value": "",
+                "label": "Link Url",
+                "valueType": "string"
+            }  
+        ]
+      },
+      {
+        "id": "footer-hero",
+        "fields": [
+            {
+                "component": "text",
+                "valueType": "string",
+                "name": "title",
+                "label": "Title",
+                "value": ""
+            },
+            {
+                "component": "reference",
+                "valueType": "string",
+                "name": "icon",
+                "label": "Icon",
+                "multi": true
+            } 
+        ]
+      },
+      {
+        "id": "footer-copyright",
+        "fields": [
+            {
+                "component": "text",
+                "valueType": "string",
+                "name": "title",
+                "label": "Title",
+                "value": ""
+            },
+            {
+                "component": "richtext",
+                "name": "description",
+                "value": "",
+                "label": "Description",
+                "valueType": "string"
+            },
+            {
+                "component": "reference",
+                "valueType": "string",
+                "name": "icon",
+                "label": "Icon",
+                "multi": true
+            },
+            {
+                "component": "text",
+                "name": "linkurl",
+                "value": "",
+                "label": "Link Url",
+                "valueType": "string"
+            }
+        ]
+      }
+    ],
+    "filters": [
+      {
+        "id": "sciex-footer",
+        "components": [
+          "title",
+          "text",
+          "image",
+          "icon",
+          "links"
+        ]
+      }
+    ]
+  }
+  

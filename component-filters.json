@@ -13,10 +13,16 @@
       "button",
       "title",
       "hero",
-      "blogs",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "hello",
+      "sciex-footer",
+      "header",
+      "footer-topBanner",
+      "searchresult",
+      "login-sso",
+      "breadcrumb"
     ]
   },
   {
@@ -44,6 +50,22 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "header",
+    "components": [
+      "headerItem"
+    ]
+  },
+  {
+    "id": "sciex-footer",
+    "components": [
+      "title",
+      "text",
+      "image",
+      "icon",
+      "links"
     ]
   }
 ]

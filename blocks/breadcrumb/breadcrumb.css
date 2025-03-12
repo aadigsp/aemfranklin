@@ -1,0 +1,103 @@
+
+main > .breadcrumb-container {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+main > .section > div {
+  padding: 15px 32px;
+}
+
+@media (min-width: 900px) {
+  main .breadcrumb-container {
+      grid-row: 1;
+      grid-column: 1 / span 2;
+  }
+}
+
+.breadcrumb-wrapper nav {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.breadcrumb-wrapper nav a,
+.breadcrumb-wrapper nav span {
+  color: var(--Grey-500, #707070) !important;
+
+  /* Desktop/text-sm/regular */
+  font-family: "Geogrotesque";
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 330 !important;
+  line-height: 20px !important; /* 142.857% */
+  letter-spacing: 0.07px !important;
+}
+.breadcrumb > nav a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s, text-decoration 0.3s; /* Smooth transition for color and underline */
+}
+
+.breadcrumb > nav a:hover {
+  color: #d8862a;
+  text-decoration: underline;
+}
+
+.breadcrumb .breadcrumb-separator {
+  margin-inline: 1.5ch;
+  color: black;
+}
+
+@media (min-width: 375px) {
+  .breadcrumb-wrapper {
+      padding: 15px 10px !important;
+      max-width: 40pc !important;
+  }
+}
+
+@media (min-width: 640px) {
+  .breadcrumb-wrapper {
+      max-width: 40pc !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .breadcrumb-wrapper {
+      max-width: 8in !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .breadcrumb-wrapper {
+      max-width: 63pc !important;
+      padding-left: 1pc !important;
+      padding-right: 1pc !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .breadcrumb-wrapper {
+      max-width: 79pc !important;
+      padding-left: 4pc !important;
+      padding-right: 4pc !important;
+  }
+}
+@media (min-width: 1366px) {
+  .breadcrumb-wrapper {
+      max-width: 84pc !important;
+      padding-left: 4pc !important;
+      padding-right: 4pc !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .breadcrumb-wrapper {
+      max-width: 89pc !important;
+  }
+}
+
+@media (min-width: 1536px) {
+  .breadcrumb-wrapper {
+      max-width: 95pc !important;
+  }
+}
